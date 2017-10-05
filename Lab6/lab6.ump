@@ -1,0 +1,17 @@
+class Customer
+{
+  name;
+  
+  boolean returningCustomer;
+}
+
+class Account
+{
+  int accountNumber;
+1 -- 1 Customer;
+  1 -- * Order;
+}
+
+class Order
+{
+}
